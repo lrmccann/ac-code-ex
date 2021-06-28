@@ -1,0 +1,22 @@
+.ac-test-cont{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ac-test-cont > div > h1 {
+    font-weight: bolder;
+    color: #653818;
+    font-size: 50px;
+    margin-bottom: -3%;
+}
+
+.ac-test-cont > div >h2{
+    text-align: center;
+    color: #653818;
+    font-size: 30px;
+}

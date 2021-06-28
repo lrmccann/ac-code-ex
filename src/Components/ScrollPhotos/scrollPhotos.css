@@ -1,0 +1,97 @@
+.scroll-photo-cont{
+    height: 47.5%;
+    width: 87.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll-photo-cont > button{
+    cursor: pointer;
+    height: 90.80%;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+} 
+
+.scroll-photo-cont > button:focus{
+    outline: transparent;
+}
+
+.font-aws-icon{
+    font-size: 55px;
+    stroke:  white; 
+    stroke-width: 30;
+    color:  #a6cdff;
+}
+.font-aws-icon:hover{
+    font-size: 50px;
+    stroke:  #a6cdff; 
+    stroke-width: 30;
+    color:  white;
+}
+
+.photo-cont{
+    height: auto;
+    width: 90%;
+    display: flex;
+    contain: content;
+    overflow: hidden;
+    padding-top: 1%;
+    justify-content: space-around;
+    position: relative;
+}
+
+.img-cont{
+    height: 88%;
+    width: 22.5%;
+    display: flex;
+} 
+
+.img-cont:hover{
+    height: 95%;
+    width: 24.5%;
+    display: flex;
+}
+
+.page-numb-cont{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page-numb-cont > span{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 3%;
+}
+
+.prod-photo{
+    height: 90%;
+    min-height: 100%;
+    width: 90%;
+    min-width: 100%;
+    cursor: pointer;
+}
+
+.paginationItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    stroke: #a6cdff;
+    stroke-width: 60px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.paginationItem.active {
+    color: #a6cdff;
+}
